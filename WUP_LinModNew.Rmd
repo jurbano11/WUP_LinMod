@@ -65,6 +65,12 @@ summary.lm(model.1)
 
 
 #### Predict at target point
+```{r}
+mydata <-data.frame(GRIP=88, ARM=104)
+predict.lm(model.1, mydata, interval ="prediction")
+```
+
+
 
 
 #### scatterplot with model fit
