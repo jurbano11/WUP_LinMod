@@ -101,6 +101,10 @@ summary.lm(model.2)
 ```  
 
 #### predict model.2 at target point
+```{r}
+predict.lm(model.2, mydata, interval ="prediction")
+```
+
 
 #### now add the model fit to our plot for model.2
   
