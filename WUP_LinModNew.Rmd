@@ -57,7 +57,8 @@ cor(SIMS~ARM,data=data)
 
 ### Inferential  (Build model.1)
 ```{r}
-
+model.1 <- lm(SIMS~ARM,data=data)
+summary.lm(model.1)
 ```
 
 
