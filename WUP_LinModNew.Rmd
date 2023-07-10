@@ -79,7 +79,14 @@ predict.lm(model.1, mydata, interval ="prediction")
 ## Model 2 SIM~GRIP
 
 ### Now add in scatterplot
+```{r}
+mygrip <- ggplot(data, aes(y = SIMS, x = ARM)) +
+  geom_point() +
+  labs(title = "SIMS and ARM") +
+  theme(plot.title = element_text(hjust = 0.5))
 
+mygrip
+```
 
 ### Numerical results 
 
