@@ -52,6 +52,7 @@ basicNN
 cor(SIMS~ARM,data=data)
 ```
 
+The Numerical results for SIMS~ARM is 0.6860073.This means there is a fair relationship between the two variables strength.
 
 
 
