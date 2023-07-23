@@ -166,6 +166,7 @@ The interval goes from negative 1.716 and goes to a positive 2.9157.
 anova(model.1, model.3)
 ```
 
+Gives a p-value of .00000499, which does not have any value.It is comparing the residual standard error of the model 1
 
 
 ### Model.1 vs Model.3
