@@ -137,9 +137,16 @@ summary.lm(model.3)
 
 
 #### predict model.3 at target point
-  
+```{r}
+predict.lm(model.3, mydata, interval ="prediction")
+```  
 
 ## Comparing nested models ANOVA Test
+```{r}
+anova(model.1, model.3)
+```
+
+
 
 ### Model.1 vs Model.3
 ### Model.2 vs Model.3
