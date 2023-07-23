@@ -181,4 +181,7 @@ The p value is a lot smaller than model.1,model.3. There is a big difference bet
 
 
 ## Informally compare Model.1 with model.2
+```{r}
+anova(model.1, model.2)
+```
 
